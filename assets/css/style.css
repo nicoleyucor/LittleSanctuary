@@ -281,6 +281,12 @@ h5, .card-title{
     float: none !important;
 }
 
+#vmission{
+  -webkit-animation: fadeInScale 0.7s ease-in-out;
+  -moz-animation: fadeInScale 0.7s ease-in-out;
+  animation: fadeInScale 0.7s ease-in-out;
+}
+
 /*==========================
         ADOPT HTML
 ==========================*/
@@ -384,6 +390,8 @@ h5, .card-title{
   height: 500px;
   width: 450px;
 }
+
+
 /*==========================
         CONTACT HTML
 ==========================*/
@@ -506,6 +514,35 @@ h5, .card-title{
 }
 
 
+@keyframes fadeInScale {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+}
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*==========================
@@ -519,6 +556,7 @@ h5, .card-title{
     margin-top: 90px;
   }
   .sty {
+    margin-top: 40px;
     height: 100px;
   }
   .welcome {
@@ -597,6 +635,7 @@ h5, .card-title{
     font-size: 48pt;
   }
   .sty {
+    margin-top: 50px;
     height: 150px;
   }
   #foot {
@@ -666,13 +705,14 @@ h5, .card-title{
 /*DESKTOP*/
 @media only screen and (min-width: 961px){
   .sty {
+     margin-top: 50px;
     height: 200px;
   }
   .welcome {
     font-size: 72pt;
   }
   #foot {
-    height:25%;
+    height:27%;
   }
   .logo-about {
    margin-top: 50px; 
@@ -737,5 +777,4 @@ h5, .card-title{
   #about,#adopt, #stories, #contact {
     height:700px;
   }
-
 }
